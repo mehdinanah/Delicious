@@ -14,7 +14,7 @@
 }
 
 .notice i {
-    color: yellow
+    color: yellow;
 }
 
 .notice p {
@@ -29,6 +29,7 @@ nav {
     background: transparent;
 }
 
+
 .navigation {
 
     position: fixed;
@@ -39,12 +40,12 @@ nav {
 
 .nav-link {
 
-    color: #fff
+    color: #fff;
 }
 
 .nav-link:hover {
 
-    color: yellow
+    color: rgb(218, 218, 162);
 }
 
 .carousel-item {
@@ -53,6 +54,8 @@ nav {
 
 .carousel-text {
     position: absolute;
+    margin-left: 50%;
+    margin-top: 20%;
     inset: 90px 64px 64px 64px;
     color: #fff;
     padding: 2rem;
@@ -61,6 +64,7 @@ nav {
     align-items: center;
     justify-content: center;
     text-align: center;
+    
 }
 
 
