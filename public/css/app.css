@@ -11858,10 +11858,77 @@ textarea.form-control-lg {
   box-sizing: border-box;
 }
 
+.topBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6px 90px;
+  background: #222;
+}
+
+.notice {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.notice i {
+  color: yellow;
+}
+
+.notice p {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+nav {
+  background: transparent;
+}
+
+.navigation {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.nav-link {
+  color: #fff;
+}
+
+.nav-link:hover {
+  color: yellow;
+}
+
+.carousel-item {
+  position: relative;
+}
+
+.carousel-text {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  inset: 90px 64px 64px 64px;
+  color: #fff;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
 .homeUs {
   padding-top: 50px;
   padding-left: 50px;
   padding-right: 50px;
+}
+.homeUs i {
+  background-color: orange;
 }
 
 .apple {
@@ -11952,6 +12019,7 @@ textarea.form-control-lg {
 
 .square :hover {
   background-color: orange;
+  padding-bottom: 10px;
 }
 
 .contain {

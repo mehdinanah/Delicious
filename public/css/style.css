@@ -14,7 +14,7 @@
 }
 
 .notice i {
-    color: rgb(0, 255, 94)
+    color: yellow
 }
 
 .notice p {
@@ -44,7 +44,7 @@ nav {
 
 .nav-link:hover {
 
-    color: rgb(0, 255, 47)
+    color: yellow
 }
 
 .carousel-item {
@@ -61,5 +61,4 @@ nav {
     align-items: center;
     justify-content: center;
     text-align: center;
-
 }
