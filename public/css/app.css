@@ -11927,9 +11927,6 @@ nav {
   padding-left: 50px;
   padding-right: 50px;
 }
-.homeUs i {
-  background-color: orange;
-}
 
 .apple {
   position: relative;
@@ -11944,7 +11941,7 @@ nav {
 
 .container {
   text-align: center;
-  padding-top: 60px;
+  padding-top: 40px;
 }
 
 .parghr {
@@ -11975,56 +11972,72 @@ nav {
 
 .parghr h4, .parghr .h4 {
   color: orange;
+  font-family: "Pacifico", cursive;
 }
 
 .div1 {
   display: flex;
   flex-direction: column;
-  background-color: #dee2e6;
+  background-color: beige;
   width: 35vw;
   height: 35vh;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
   padding-left: 30px;
-  padding-top: 15px;
+  padding-top: 20px;
 }
 
 .div2 {
   display: flex;
   flex-direction: column;
-  background-color: #dee2e6;
+  background-color: beige;
   width: 35vw;
   height: 35vh;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
   padding-left: 30px;
-  padding-top: 15px;
+  padding-top: 20px;
 }
 
 .div3 {
   display: flex;
   flex-direction: column;
-  background-color: #dee2e6;
+  background-color: beige;
   width: 35vw;
   height: 35vh;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
   padding-left: 30px;
-  padding-top: 15px;
+  padding-top: 20px;
 }
 
 .square {
   display: flex;
   align-items: center;
   gap: 40px;
-  padding: 100px 50px 100px 50px;
+  padding: 60px 50px 100px 50px;
 }
 
 .square :hover {
   background-color: orange;
   padding-bottom: 10px;
 }
+.square :hover h1, .square :hover .h1, .square :hover h3, .square :hover .h3, .square :hover p {
+  color: white;
+}
+
+.square h1, .square .h1 {
+  color: orange;
+}
+
+.square h3, .square .h3 {
+  font-family: "Pacifico", cursive;
+}
+
+.square p {
+  color: grey;
+}
 
 .contain {
   text-align: center;
-  padding-top: 80px;
+  padding-top: 60px;
 }
 
 .bttoo {
@@ -12061,8 +12074,12 @@ nav {
 
 .linkss a {
   text-decoration: none;
-  color: orange;
+  color: grey;
   font-family: "Pacifico", cursive;
+}
+
+.linkss :hover {
+  color: orange;
 }
 
 .imges {
@@ -12103,7 +12120,23 @@ nav {
 
 .spcial-section {
   text-align: center;
-  padding-top: 15px;
+  padding-top: 80px;
+}
+.spcial-section span {
+  font-family: "Pacifico", cursive;
+  font-size: 25px;
+}
+
+.title {
+  color: orange;
+}
+
+.archito h2, .archito .h2 {
+  font-family: "Pacifico", cursive;
+}
+
+.archito p {
+  color: grey;
 }
 
 .bott {
@@ -12113,7 +12146,7 @@ nav {
   height: 4vh;
   background-color: peige;
   color: orange;
-  padding-top: 10px;
+  padding-top: 8px;
 }
 
 .lorem-span {
@@ -12136,7 +12169,7 @@ nav {
 }
 
 .spane span:hover {
-  color: red;
+  color: orange;
 }
 
 .form-imge {
@@ -12160,18 +12193,25 @@ nav {
 
 .messg {
   display: flex;
-  align-items: center;
+  text-align: center;
   gap: 50px;
   padding-left: 40px;
+  padding-top: 10px;
+  margin-top: 20px;
+}
+
+.rboton {
+  margin-left: 20vw;
   padding-top: 20px;
 }
 
-.form-imge {
-  text-align: center;
-  padding-right: 20vw;
-  padding-right: 80px;
+.butett {
   background-color: orange;
+  border: 1px;
+  width: 15VW;
+  height: 5vh;
 }
+
 form {
   padding-top: 100px;
 }
@@ -12198,7 +12238,7 @@ form {
   display: flex;
   align-content: center;
   gap: 10vw;
-  padding-left: 10px;
+  padding: 3px;
 }
 
 .di-imge {
@@ -12212,14 +12252,20 @@ form {
 .wamaster {
   position: absolute;
   bottom: -50px;
-  background-color: gray;
+  background-color: white;
+  margin: 15px;
+}
+
+.icon p, .icon i {
+  color: grey;
 }
 
 .parent {
   display: flex;
-  gap: 80px;
+  gap: 100px;
   padding-left: 150px;
-  padding-top: 50px;
+  padding-top: 80px;
+  padding-bottom: 200px;
 }
 
 .scroll-top {
@@ -12233,6 +12279,89 @@ form {
   border-radius: 50%;
   font-size: 24px;
   transition: opacity 0.3s ease-in-out;
+}
+
+.ourEvent {
+  width: 100%;
+  height: 80vh;
+  background: #000;
+  background-image: url("../images/img/events-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.ourEvent .opacity {
+  background: #000;
+  width: 100%;
+  height: 80vh;
+  opacity: 0.5;
+}
+.ourEvent .slide {
+  position: absolute;
+  top: 10px;
+}
+.ourEvent .slide .carousel-indicators {
+  bottom: -37px;
+}
+.ourEvent .slide .carousel-indicators [data-bs-target] {
+  box-sizing: content-box;
+  flex: 0 1 auto;
+  width: 30px;
+  height: 3px;
+  padding: 0;
+  margin-right: 3px;
+  margin-left: 3px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: #ffb03b;
+  border: 0;
+  border-radius: 50%;
+  height: 10px;
+  width: 10px;
+  transition: opacity 0.6s ease;
+}
+.ourEvent .slide .carousel-inner .carousel-item {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.ourEvent .slide .carousel-inner .carousel-item .d-block {
+  margin-left: 25px;
+  margin-top: 25px;
+  width: 45%;
+}
+.ourEvent .slide .carousel-inner .carousel-item .carousel-caption {
+  position: absolute;
+  top: 0;
+  left: 55vw;
+}
+.ourEvent .slide .carousel-inner .carousel-item .carousel-caption .content {
+  text-align: start;
+}
+.ourEvent .slide .carousel-inner .carousel-item .carousel-caption .content h3, .ourEvent .slide .carousel-inner .carousel-item .carousel-caption .content .h3 {
+  color: #fff7eb;
+  font-family: "Pacifico", cursive;
+  font-weight: 300;
+}
+.ourEvent .slide .carousel-inner .carousel-item .carousel-caption .content .price {
+  border-bottom: 1px solid #ffb03b;
+  width: fit-content;
+  height: fit-content;
+}
+.ourEvent .slide .carousel-inner .carousel-item .carousel-caption .content .price span {
+  color: #fff7eb;
+  font-size: 20px;
+  font-weight: 500;
+}
+.ourEvent .slide .carousel-inner .carousel-item .carousel-caption .content p {
+  color: #fff7eb;
+}
+.ourEvent .slide .carousel-inner .carousel-item .carousel-caption .content ul li {
+  list-style: none;
+  color: #fff7eb;
+}
+.ourEvent .slide .carousel-inner .carousel-item .carousel-caption .content ul li i {
+  color: #ffb03b;
 }
 
 /*# sourceMappingURL=app.css.map */
